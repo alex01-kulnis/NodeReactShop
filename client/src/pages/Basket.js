@@ -1,12 +1,11 @@
-import React from "react";
-
+import React from 'react';
 
 function Basket() {
-   return (
-      <div  >
-         Basket
-      </div>
-   );
+  return (
+    <div>
+      Basket
+    </div>
+  );
 }
 
 export default Basket;
