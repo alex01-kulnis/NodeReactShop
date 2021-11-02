@@ -1,32 +1,25 @@
 {
-    "env": {
-        "browser": true,
-        "es2021": true
+  "env": {
+    "browser": true,
+    "es2021": true
+  },
+  "extends": ["plugin:react/recommended", "google"],
+  "parserOptions": {
+    "ecmaFeatures": {
+      "jsx": true
     },
-    "extends": [
-        "plugin:react/recommended",
-        "google"
-    ],
-    "parserOptions": {
-        "ecmaFeatures": {
-            "jsx": true
-        },
-        "ecmaVersion": 13,
-        "sourceType": "module"
-    },
-    "plugins": [
-        "react"
-    ],
-    "rules": {
-        "linebreak-style": [
-            "off",
-            "windows"
-        ],
-        "require-jsdoc": 0,
-        "max-len": 0,
-        "object-curly-spacing": 0,
-        "operator-linebreak": 0,
-        "camelcase": 0,
-        "react/prop-types": 0
-    }
+    "ecmaVersion": 12,
+    "sourceType": "module"
+  },
+  "plugins": ["react"],
+  "rules": {
+    "linebreak-style": ["off", "windows"],
+    "require-jsdoc": 0,
+    "max-len": 0,
+    "object-curly-spacing": 0,
+    "operator-linebreak": 0,
+    "camelcase": 0,
+    "react/prop-types": 0,
+    "arrow-parens": 0
+  }
 }
